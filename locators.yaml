@@ -1,0 +1,28 @@
+xpath:
+  LOCATOR_XYZ_BANK_FIELD: //strong[contains(@class,'mainHeading')]
+  LOCATOR_COSTOMER_LOGIN_BTN: //button[contains(@ng-click,'customer()')]
+  LOCATOR_YOUR_NAME_FIELD:  //form/div/label
+  LOCATOR_SELECT_FIELD: //*[contains(@id, 'userSelect')]
+  LOCATOR_SUBMIT_BTN: //button[contains(@type, 'submit')]
+  LOCATOR_HARRY_POTTER_FIELD: //span[contains(@class,'fontBig ng-binding')]
+  LOCATOR_DEPOSIT_BTN: //button[contains(@ng-click, 'deposit()')]
+  LOCATOR_DEPOSIT_FIELD: //form[contains(@ng-submit, 'deposit()')]//div/label
+  LOCATOR_AMOUNT_INPUT: //input[contains(@ng-model, 'amount')]
+  LOCATOR_DEPOSIT_SUCCESSFUL_FIELD: //span[contains(@ng-show, 'message')]
+  LOCATOR_WITHDRAWN_BTN: //button[contains(@ng-click, 'withdrawl()')]
+  LOCATOR_WITHDRAWN_FIELD: //form[contains(@ng-submit, 'withdrawl()')]//div/label
+  LOCATOR_BALANCE_FIELD: //strong[2]
+  LOCATOR_TRANSACTIONS_BTN: //button[contains(@ng-click, 'transactions()')]
+  LOCATOR_CREDIT_FIELD: //*[@id="anchor0"]/td[3]
+  LOCATOR_DEBIT_FIELD: //*[@id="anchor1"]/td[3]
+  LOCATOR_CREDIT_DATE_TIME_FIELD: //*[@id="anchor0"]/td[1]
+  LOCATOR_CREDIT_AMOUNT_FIELD: //*[@id="anchor0"]/td[2]
+  LOCATOR_DEBIT_DATE_TIME_FIELD: //*[@id="anchor1"]/td[1]
+  LOCATOR_DEBIT_AMOUNT_FIELD: //*[@id="anchor1"]/td[2]
+
+
+css:
+
+  contact_btn: li:nth-child(2) > a
+  LOCATOR_LOGIN_BTN_: button
+
